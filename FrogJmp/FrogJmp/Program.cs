@@ -14,7 +14,6 @@ namespace FrogJmp
         public static int solution(int X, int Y, int D)
         {
             var distanceToJump = Y - X;
-
             if (distanceToJump <= 0)
                 return 0;
 
